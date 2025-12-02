@@ -42,6 +42,10 @@ public class Corrida {
         return valorFinal;
     }
 
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
     public Passageiro getPassageiro() {
         return passageiro;
     }
@@ -96,5 +100,6 @@ public class Corrida {
     	return metodoPagamento;
     }
 }
+
 
 
